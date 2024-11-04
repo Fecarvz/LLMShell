@@ -23,6 +23,7 @@ Este projeto é uma interface de linha de comando (CLI) que permite a execução
 
 ## Como Usar
 
+Antes de tudo, é essencial ter um modelo LLM em execução localmente na sua máquina. Recomendo o uso do Ollama, que é uma ferramenta eficiente e fácil de configurar para essa finalidade. No caso o projeto funciona usando o Llama3.2, mas você pode mudar isso.
 1. Clone o repositório:
    ```bash
    git clone <URL_DO_REPOSITORIO>
