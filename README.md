@@ -32,7 +32,7 @@ Antes de tudo, é essencial ter um modelo LLM em execução localmente na sua m�
 
 2. Execute o script:
    ```bash
-   python nome_do_script.py
+   python LLMShell.py
    ```
 
 3. Interaja com a CLI digitando comandos. Para sair, digite `sair`.
