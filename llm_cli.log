@@ -8,3 +8,4 @@
 2024-12-23 14:14:53,503 - ERROR - Erro ao executar comando: name 'SecurityValidator' is not defined
 2024-12-23 14:15:38,899 - ERROR - Erro ao executar comando: name 'SecurityValidator' is not defined
 2024-12-23 14:16:09,923 - ERROR - Erro ao executar comando: [Errno 2] No such file or directory: 'Touch'
+2024-12-23 14:35:51,148 - ERROR - Erro ao executar comando: No closing quotation

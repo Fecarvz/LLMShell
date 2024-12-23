@@ -76,14 +76,18 @@ class CLI:
                 # Exibe o comando que será executado
                 print("\nComando a ser executado:", command)
                 
+                print("\nDeseja executar esse comando?")
+                user_confirm = input("Y/N: ").strip().upper()
 
-                
-                result = self.executor.execute_command(command)
-                
-                if result.success:
-                    print("Saída:", result.output)
+                if user_confirm == "Y":
+                    result = self.executor.execute_command(command)
+                    
+                    if result.success:
+                        print("Saída:", result.output)
+                    else:
+                        print("Erro:", result.error or "Comando falhou")
                 else:
-                    print("Erro:", result.error or "Comando falhou")
+                    print("\nOperação cancelada pelo usuário")
                 
             except KeyboardInterrupt:
                 print("\nOperação cancelada pelo usuário")
